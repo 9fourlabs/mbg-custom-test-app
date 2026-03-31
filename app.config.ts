@@ -3,6 +3,7 @@ import { ExpoConfig } from "expo/config";
 const config: ExpoConfig = {
   name: "MBG Custom Test",
   slug: "mbg-custom-test",
+  owner: "tbrown9four",
   version: process.env.APP_VERSION ?? "1.0.0",
   orientation: "portrait",
   icon: "./assets/icon.png",
@@ -26,7 +27,7 @@ const config: ExpoConfig = {
   },
   extra: {
     eas: {
-      projectId: process.env.EXPO_PROJECT_ID ?? "",
+      projectId: process.env.EXPO_PROJECT_ID ?? "d13a02a8-2ffd-44e3-9f1d-6e8a5c514b8c",
     },
   },
 };
